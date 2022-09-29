@@ -1,0 +1,37 @@
+Request method:	POST
+Request URI:	http://www.dneonline.com/calculator.asmx
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/xml, text/xml, application/xhtml+xml
+				Content-Type=text/xml; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <Add xmlns="http://tempuri.org/">
+      <intA>5</intA>
+      <intB>8</intB>
+    </Add>
+  </Body>
+</Envelope>
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 2.0.50727
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Fri, 16 Sep 2022 14:11:37 GMT
+Content-Length: 326
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Body>
+    <AddResponse xmlns="http://tempuri.org/">
+      <AddResult>13</AddResult>
+    </AddResponse>
+  </soap:Body>
+</soap:Envelope>

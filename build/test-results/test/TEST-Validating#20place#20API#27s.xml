@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Validating place API's" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-09-16T14:11:33" hostname="COL-LT-220815D" time="0.642">
+  <properties/>
+  <testcase name="Verify if Delete Place functionality is working" classname="Validating place API's" time="0.642">
+    <failure message="java.lang.IllegalStateException: Cannot serialize object because no XML serializer found in classpath. Please put a JAXB or JakartaEE compliant object mapper in classpath." type="java.lang.IllegalStateException">java.lang.IllegalStateException: Cannot serialize object because no XML serializer found in classpath. Please put a JAXB or JakartaEE compliant object mapper in classpath.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.mapping.ObjectMapping.serialize(ObjectMapping.groovy:171)
+	at io.restassured.internal.mapping.ObjectMapping$serialize.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:46)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at io.restassured.internal.RequestSpecificationImpl.body(RequestSpecificationImpl.groovy:756)
+	at hooks.GoogleMapApiHook.AddPlace(GoogleMapApiHook.java:33)
+	at stepsDefinitions.GoogleMapAPIPlaceValidationsStepDefinition.deletePlacePayload(GoogleMapAPIPlaceValidationsStepDefinition.java:98)
+	at ✽.DeletePlace Payload(file:///C:/Users/alberto.barboza/IdeaProjects/RestAssureDemo-master/src/test/resources/features/googleMapAPIPlaceValidations.feature:24)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Validating calculator API" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-09-16T14:11:32" hostname="COL-LT-220815D" time="1.32">
+  <properties/>
+  <testcase name="Verify if the calculator do a correct sum" classname="Validating calculator API" time="1.32"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
